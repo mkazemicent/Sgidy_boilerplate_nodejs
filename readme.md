@@ -59,10 +59,8 @@ cd sgidy_boilerplate_nodejs
 npm install
 Usage
 Start the server:
-
-bash
-Copy code
 npm start
+
 Contributing
 Contributions are always welcome! Please adhere to this project's code of conduct.
 
