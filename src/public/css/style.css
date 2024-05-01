@@ -1,0 +1,88 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff3e0;
+    /* Light orange background */
+    color: #333;
+    /* Dark text for readability */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffa726;
+    /* Medium orange */
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #ef6c00;
+    /* Dark orange */
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+button {
+    background-color: #fb8c00;
+    /* Bright orange */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ddd;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+}
+
+.chatbox {
+    border: 2px solid #ffa726;
+    padding: 10px;
+    margin: 20px;
+    height: 300px;
+    overflow: auto;
+}
