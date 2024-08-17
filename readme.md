@@ -1,6 +1,6 @@
 # Sgidy Boilerplate Node.js
 
-A Node.js boilerplate using Express, EJS, and MongoDB, designed to kickstart any web application project with user authentication and best practices for security and performance.
+A Node.js boilerplate using Express, EJS,  MongoDB, Tailwind CSS, and daisyUI,  designed to kickstart any web application project with user authentication and best practices for security and performance.
 
 ## Features
 
@@ -12,7 +12,7 @@ A Node.js boilerplate using Express, EJS, and MongoDB, designed to kickstart any
 - Security enhancements with Helmet and CORS
 - Error handling middleware
 - Static file serving with Express
-- Bootstrap for responsive design
+- Responsive and stylish design using Tailwind CSS and daisyUI.
 - Mongodb for database
 
 ## Project Structure

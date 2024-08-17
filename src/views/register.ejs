@@ -1,40 +1,41 @@
 <%- include('partials/header') %>
 
-<main class="container mt-5">
-  <h2>Register</h2>
-  <form
-    action="/api/register"
-    method="POST"
-    class="needs-validation"
-    novalidate
-  >
-    <div class="mb-3">
-      <label for="username" class="form-label">Username:</label>
+<main class="container mx-auto mt-10 p-5">
+  <h2 class="text-3xl font-bold mb-5">Register</h2>
+  <form action="/api/register" method="POST" class="space-y-4">
+    <div class="form-control">
+      <label for="username" class="label">
+        <span class="label-text">Username:</span>
+      </label>
       <input
         type="text"
-        class="form-control"
         id="username"
         name="username"
+        class="input input-bordered"
         required
       />
     </div>
-    <div class="mb-3">
-      <label for="email" class="form-label">Email:</label>
+    <div class="form-control">
+      <label for="email" class="label">
+        <span class="label-text">Email:</span>
+      </label>
       <input
         type="email"
-        class="form-control"
         id="email"
         name="email"
+        class="input input-bordered"
         required
       />
     </div>
-    <div class="mb-3">
-      <label for="password" class="form-label">Password:</label>
+    <div class="form-control">
+      <label for="password" class="label">
+        <span class="label-text">Password:</span>
+      </label>
       <input
         type="password"
-        class="form-control"
         id="password"
         name="password"
+        class="input input-bordered"
         required
       />
     </div>
